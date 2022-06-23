@@ -5,30 +5,29 @@
 }
 
 body {
-/*
-    flex-flow: column wrap;
-    flex: 1 0 auto;
-    */
     height: 100vh;
     border: 2px solid green; 
 }
 .content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 }
+
 div {
     border: 1px solid red;
 }
 .section-1{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 section {
     border: 1px solid red;
-    flex-grow: 1;
-  /*  height: 100%; */
-    padding: 20px;
+    flex: 1 0 20px;
 }
+
 header {
     display: flex;
     justify-content: space-around;
