@@ -5,7 +5,6 @@
 }
 body {
     height: 100vh;
-    border: 2px solid green; 
 }
 .content {
     display: flex;
@@ -15,7 +14,6 @@ body {
 }
 
 section {
-    border: 1px solid red;
     margin: 4px 0;
 }
 .section-2 {
@@ -28,8 +26,12 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 12px;
+    padding: 12px 86px;
     color: white;
+}
+.thor {
+    background-color: #e5e7eb;
+    padding: 60px;
 }
 .section-2 p {
     text-align: center;
@@ -39,9 +41,13 @@ header {
     flex-direction: column;
     align-content: center;
 }
+.section-3 strong{
+    text-align: end;
+}
 .section-4{
     display: flex;
     justify-content: center;
+    padding: 60px;
 }
 .rand img {
     border: 1px solid blue ;
@@ -61,13 +67,18 @@ header {
     justify-content: space-between;
     color: white;
     background-color: #1f2937;
-    padding: 12px;
+    padding: 12px 86px;
 }
 img {
     height: 200px;
 }
 .call-to-action{
     display: flex;
+    background-color: #3882f6;
+    margin: 40px;
+    padding: 40px; 
+    border-radius: 25px;
+    align-content: center;
 }
 ul {
     display: flex;
@@ -79,5 +90,6 @@ li {
 footer{
     background-color: #1f2937;
     color: white;
+    padding: 24px;
     text-align: center;
 }
