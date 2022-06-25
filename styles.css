@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
 }
 body {
     height: 100vh;
+    
 }
 .content {
     display: flex;
@@ -12,7 +14,27 @@ body {
     justify-content: space-between;
     height: 100vh;
 }
-
+.section-1 h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-div h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    flex-grow: 0;
+    color: #f9faf8;
+}
+.header-div img{
+    margin-left: 18px;
+}
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header-div p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 section {
     margin: 4px 0;
 }
@@ -31,49 +53,75 @@ header {
 }
 .thor {
     background-color: #e5e7eb;
-    padding: 60px;
+    padding: 120px 240px;
+}
+.section-2 h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 .section-2 p {
     text-align: center;
+    margin: 0 16px;
 }
 .section-3{
     display: flex;
     flex-direction: column;
     align-content: center;
 }
-.section-3 strong{
+.section-3 p:last-of-type{
     text-align: end;
+    margin-right: 28px;
 }
 .section-4{
     display: flex;
     justify-content: center;
     padding: 60px;
 }
+
 .rand img {
-    border: 1px solid blue ;
-    border-radius: 5px;
-    height: 100px;
-    width: 100px;
-    flex: 0 0 auto;
+    border: 4px solid skyblue ;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    flex-grow: 1;
 }
 .rand{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 24px;
+    margin: 24px 240px;
+}
+.rand p{
+
+}
+.rand div {
+    margin: 12px 28px;
+    width: 150px;
+    flex-grow: 1;
+}
+    
+
+.thor p:first-of-type {
+    color: #1f2937;
+    font-style: light;
+    font-style: italic;
+    font-size: 36px;
 }
 .header-div {
     display: flex;
     justify-content: space-between;
     color: white;
     background-color: #1f2937;
-    padding: 12px 86px;
+    padding: 48px 86px;
+    
 }
 .header-div button{
     margin: 16px 0;
     color: white;
     background-color: #3882f6;
-    padding: 8px;
+    padding: 8px 12px;
+    border: none;
     border-radius: 3px;
 }
 img {
@@ -86,9 +134,13 @@ a {
 .call-to-action{
     display: flex;
     background-color: #3882f6;
-    margin: 40px;
+    margin: 40px 120px;
     padding: 40px; 
     border-radius: 25px;
+    align-content: center;
+    color:#e5e7eb;
+    flex: 1;
+    justify-content: space-around;
     align-content: center;
 }
 ul {
@@ -102,7 +154,7 @@ li {
     margin: 16px;
     color: white;
     background-color: #3882f6;
-    padding: 8px;
+    padding: 8px 12px;
     border-radius: 3px;
     border: 1px solid white;
 }
